@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Dummy iFlow
+Bundle-Name: CICD Test iFlow Import
 Bundle-SymbolicName: Dummy_iFlow; singleton:=true
 Bundle-Version: 1.0.0
 SAP-BundleType: IntegrationFlow
