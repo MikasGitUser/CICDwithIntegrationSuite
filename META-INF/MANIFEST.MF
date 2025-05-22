@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Integration Content Catalog Creation in Content Package
-Bundle-SymbolicName: Integration_Content_Catalog_Creation; singleton:=true
+Bundle-SymbolicName: Integration_Content_Catalog_Creation_in_Content_Package; singleton:=true
 Bundle-Version: 1.0.0
 SAP-BundleType: IntegrationFlow
 SAP-NodeType: IFLMAP
