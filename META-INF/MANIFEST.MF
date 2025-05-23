@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Dummy iFlow
-Bundle-SymbolicName: Dummy_iFlow; singleton:=true
+Bundle-Name: Dummy iFlow for CICD Test
+Bundle-SymbolicName: Dummy_iFlow_for_CICD_Test
 Bundle-Version: 1.0.0
 SAP-BundleType: IntegrationFlow
 SAP-NodeType: IFLMAP
@@ -32,6 +32,6 @@ Import-Package: com.sap.esb.application.services.cxf.interceptor,com.sap
  om.sap.esb.camel.jdbc.idempotency.reorg,javax.sql,org.apache.camel.proc
  essor.idempotent.jdbc,org.osgi.service.blueprint;version="[1.0.0,2.0.0)
  "
-Origin-Bundle-Name: Dummy iFlow
-Origin-Bundle-SymbolicName: Dummy_iFlow
+Origin-Bundle-Name: Dummy iFlow for CICD Test
+Origin-Bundle-SymbolicName: Dummy_iFlow_for_CICD_Test
 
