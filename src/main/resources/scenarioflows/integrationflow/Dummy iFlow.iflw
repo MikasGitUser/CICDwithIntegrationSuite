@@ -109,7 +109,7 @@
                 </ifl:property>
                 <ifl:property>
                     <key>urlPath</key>
-                    <value>/Dummy_iFlow</value>
+                    <value>/Dummy_iFlow_for_CICD_Test</value>
                 </ifl:property>
                 <ifl:property>
                     <key>Name</key>
