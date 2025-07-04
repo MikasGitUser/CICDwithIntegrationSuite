@@ -1,0 +1,6 @@
+
+
+
+Package;ArtifactType;ArtifactID;Version;ChangedOn;ChangedBy
+CloudIntegrationAssets;Integration Flow;Integration_Content_Catalog_Creation_IS_to_GIT;Active;04.07.2025 11:01:50;mika.paulus@accenture.com
+CloudIntegrationAssets;Integration Flow;Integration_Content_Catalog_Creation_IS_to_GIT_adjusted;Active;04.07.2025 12:33:49;mika.paulus@accenture.com
