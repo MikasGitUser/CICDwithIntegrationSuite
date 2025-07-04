@@ -1,6 +1,0 @@
-
-
-
-Id;Name;Version;CreatedBy;CreationDate;ModifiedBy;ModifiedDate;Vendor;Mode;UpdateAvailable;Artifact_Type;Artifact_ID;Artifact_Name;Artifact_Version;Artifact_CreatedBy;Artifact_CreatedAt;Artifact_ModifiedBy;Artifact_ModifiedAt;Artifact_Description;Artifact_PackageID
-CloudIntegrationAssets;Cloud Integration Assets;;mika.paulus@accenture.com;02.07.2025 14:32:42;mika.paulus@accenture.com;02.07.2025 14:32:42;;EDIT_ALLOWED;false;Integration Flow;Integration_Content_Catalog_Creation_IS_to_GIT;Integration Content Catalog Creation IS to GIT;Active;mika.paulus@accenture.com;02.07.2025 14:35:02;mika.paulus@accenture.com;04.07.2025 11:01:50;Creates a metadata catalog of all packages and their designtime artifacts across the Integration Suite tenant. The catalog will be sent to github;CloudIntegrationAssets
-CloudIntegrationAssets;Cloud Integration Assets;;mika.paulus@accenture.com;02.07.2025 14:32:42;mika.paulus@accenture.com;02.07.2025 14:32:42;;EDIT_ALLOWED;false;Integration Flow;Integration_Content_Catalog_Creation_IS_to_GIT_adjusted;Integration Content Catalog Creation IS to GIT adjusted;Active;mika.paulus@accenture.com;04.07.2025 11:27:25;mika.paulus@accenture.com;04.07.2025 11:53:12;Creates a metadata catalog of all packages and their designtime artifacts across the Integration Suite tenant. The catalog will be sent to github;CloudIntegrationAssets
