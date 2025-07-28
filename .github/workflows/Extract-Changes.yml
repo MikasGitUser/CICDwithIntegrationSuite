@@ -35,7 +35,7 @@ jobs:
       - name: Call BTP CI IFlow
         run: |
           echo "${{steps.step1.outputs.fileoutput}}"
-          curl -X GET https://accenture-sbg-asg.it-cpi024-rt.cfapps.eu10-002.hana.ondemand.com/http/SyncArtifacts/GITHUB \
+          curl -X GET https://accenture-sbg-asg.it-cpi024-rt.cfapps.eu10-002.hana.ondemand.com/http/SyncArtifactsDispatcher/GITHUB \
                -H "Content-Type: application/text" \
                -H "Authorization: Bearer ${{ secrets.API_KEY }}" \
                -d '${{steps.step1.outputs.fileoutput}}'
