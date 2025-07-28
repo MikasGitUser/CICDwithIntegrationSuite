@@ -1,0 +1,41 @@
+name: Extract Changes
+
+on:
+  push:
+    paths:
+      - 'CPI_Artifacts_Metadata.txt'  # or specify specific file types you're interested in
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        id: step0
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Important! Full history needed for proper diffs
+
+      - name: Extract Changes
+        id: step1
+        run: |
+          echo "🔍 Extracting added lines from modified files..."
+          git diff HEAD^ HEAD > diff.txt
+          echo "📄 Diff output saved to diff.txt"
+          echo "📥 Extracting Added/Deleted/Changed lines..."
+          grep '^+' diff.txt | grep -v '^+++' | sed 's/^+//' > added_lines.txt
+          echo "✅ Added/Deleted/Changed lines extracted:"
+          cat added_lines.txt
+          {
+          echo 'fileoutput<<EOF'
+          cat added_lines.txt
+          echo EOF
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Call BTP CI IFlow
+        run: |
+          echo "${{steps.step1.outputs.fileoutput}}"
+          curl -X GET https://accenture-sbg-asg.it-cpi024-rt.cfapps.eu10-002.hana.ondemand.com/http/SyncArtifacts/GITHUB \
+               -H "Content-Type: application/text" \
+               -H "Authorization: Bearer ${{ secrets.API_KEY }}" \
+               -d '${{steps.step1.outputs.fileoutput}}'
