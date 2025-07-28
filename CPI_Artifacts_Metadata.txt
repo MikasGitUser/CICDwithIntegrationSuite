@@ -1,0 +1,27 @@
+
+
+ASGPlayground;IntegrationFlow;Step_2_Split_and_Multicast;Active;21.07.2025 22:12:35;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;Receiver_Iflow_2;Active;22.07.2025 08:01:17;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;Dummy_iFlow;1.0.14;21.07.2025 17:19:07;mika.paulus@accenture.com
+ASGPlayground;IntegrationFlow;Receiver_Iflow_1;Active;21.07.2025 21:56:27;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;Generic_Outbound_IFlow_for_CPEX_Flows;1.0.1;21.07.2025 15:46:00;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;Source_Inbound_to_JMS;Active;22.07.2025 12:36:56;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;Receiver_Iflow_3;Active;21.07.2025 21:57:26;jitendra.jeswani@accenture.com
+ASGPlayground;MessageMapping;MM_IDOC_to_IDOC;Draft;;
+ASGPlayground;MessageMapping;MM_IDOC_to_SOAP;Draft;;
+GermnayAssets;IntegrationFlow;Event_Consumer_2;1.0.3;21.07.2025 16:37:28;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;Event_Consumer_4_Topic;Active;27.06.2025 07:44:40;jitendra.jeswani@accenture.com
+GermnayAssets;IntegrationFlow;EventPublisher;Active;27.06.2025 12:53:31;jitendra.jeswani@accenture.com
+GermnayAssets;IntegrationFlow;UC1_Integration_Artifacts_Catalog;1.0.0;27.06.2025 08:05:31;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;Event_Consumer_3_Queue;Active;27.06.2025 15:46:39;jitendra.jeswani@accenture.com
+GermnayAssets;IntegrationFlow;UC3_MessageMappingsSyncwithGIT;Active;28.07.2025 08:28:37;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC3_ArtifactsSyncwithGIT_Dispatcher;Active;24.07.2025 12:29:02;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC3_IntegrationFlowsSyncwithGIT;Active;28.07.2025 08:27:46;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC5_Generic_Outbound_Iflow_for_all_Receivers_using_PD;1.0.0;16.07.2025 23:05:36;jitendra.jeswani@accenture.com
+GermnayAssets;IntegrationFlow;Event_Consumer_1;1.0.2;21.07.2025 16:16:18;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC3_ArtifactsSyncwithGIT;Active;23.07.2025 11:23:51;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC4_HowToUsePartnerDirectory;Active;16.07.2025 22:17:30;jitendra.jeswani@accenture.com
+GermnayAssets;IntegrationFlow;UC3_Integration_Content_Catalog_Creation_IS_to_GIT_adjusted;Active;24.07.2025 08:29:00;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC3_ScriptCollectionsSyncwithGIT;Active;28.07.2025 08:29:14;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC3_ValueMappingsSyncwithGIT;Active;28.07.2025 08:29:49;mika.paulus@accenture.com
+IntegrationSuiteFirstPoC;IntegrationFlow;Integration_Flow_PoC;Active;02.02.2024 16:14:35;frederic.agneray@accenture.com
