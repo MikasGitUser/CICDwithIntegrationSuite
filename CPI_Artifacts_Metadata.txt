@@ -7,7 +7,7 @@ ASGPlayground;IntegrationFlow;Receiver_Iflow_1;Active;21.07.2025 21:56:27;jitend
 ASGPlayground;IntegrationFlow;Generic_Outbound_IFlow_for_CPEX_Flows;1.0.1;21.07.2025 15:46:00;jitendra.jeswani@accenture.com
 ASGPlayground;IntegrationFlow;Source_Inbound_to_JMS;Active;22.07.2025 12:36:56;jitendra.jeswani@accenture.com
 ASGPlayground;IntegrationFlow;Receiver_Iflow_3;Active;21.07.2025 21:57:26;jitendra.jeswani@accenture.com
-ASGPlayground;IntegrationFlow;Dummy_iFlow;1.0.18;31.07.2025 06:50:12;mika.paulus@accenture.com
+ASGPlayground;IntegrationFlow;Dummy_iFlow;1.0.19;31.07.2025 06:58:18;mika.paulus@accenture.com
 ASGPlayground;MessageMapping;MM_IDOC_to_IDOC;Draft;;
 ASGPlayground;MessageMapping;MM_IDOC_to_SOAP;Draft;;
 ASGPlayground;ValueMapping;Dummy_Value_Mapping;1.0.1;;
