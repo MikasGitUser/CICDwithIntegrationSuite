@@ -1,12 +1,13 @@
 
 
+ASGPlayground;IntegrationFlow;CustomStatus_IFLOW;Active;31.07.2025 06:47:22;jitendra.jeswani@accenture.com
 ASGPlayground;IntegrationFlow;Step_2_Split_and_Multicast;Active;21.07.2025 22:12:35;jitendra.jeswani@accenture.com
 ASGPlayground;IntegrationFlow;Receiver_Iflow_2;Active;22.07.2025 08:01:17;jitendra.jeswani@accenture.com
 ASGPlayground;IntegrationFlow;Receiver_Iflow_1;Active;21.07.2025 21:56:27;jitendra.jeswani@accenture.com
-ASGPlayground;IntegrationFlow;Dummy_iFlow;1.0.17;30.07.2025 15:38:44;mika.paulus@accenture.com
 ASGPlayground;IntegrationFlow;Generic_Outbound_IFlow_for_CPEX_Flows;1.0.1;21.07.2025 15:46:00;jitendra.jeswani@accenture.com
 ASGPlayground;IntegrationFlow;Source_Inbound_to_JMS;Active;22.07.2025 12:36:56;jitendra.jeswani@accenture.com
 ASGPlayground;IntegrationFlow;Receiver_Iflow_3;Active;21.07.2025 21:57:26;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;Dummy_iFlow;1.0.18;31.07.2025 06:50:12;mika.paulus@accenture.com
 ASGPlayground;MessageMapping;MM_IDOC_to_IDOC;Draft;;
 ASGPlayground;MessageMapping;MM_IDOC_to_SOAP;Draft;;
 ASGPlayground;ValueMapping;Dummy_Value_Mapping;1.0.1;;
@@ -23,7 +24,7 @@ GermnayAssets;IntegrationFlow;UC5_Generic_Outbound_Iflow_for_all_Receivers_using
 GermnayAssets;IntegrationFlow;Event_Consumer_1;1.0.2;21.07.2025 16:16:18;mika.paulus@accenture.com
 GermnayAssets;IntegrationFlow;UC3_ArtifactsSyncwithGIT;Active;23.07.2025 11:23:51;mika.paulus@accenture.com
 GermnayAssets;IntegrationFlow;UC4_HowToUsePartnerDirectory;Active;16.07.2025 22:17:30;jitendra.jeswani@accenture.com
-GermnayAssets;IntegrationFlow;UC3_Integration_Content_Catalog_Creation_IS_to_GIT_adjusted;Active;24.07.2025 08:29:00;mika.paulus@accenture.com
 GermnayAssets;IntegrationFlow;UC3_ScriptCollectionsSyncwithGIT;Active;28.07.2025 08:29:14;mika.paulus@accenture.com
 GermnayAssets;IntegrationFlow;UC3_ValueMappingsSyncwithGIT;Active;28.07.2025 08:29:49;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC3_Integration_Content_Catalog_Creation_IS_to_GIT_adjusted;Active;31.07.2025 06:55:43;mika.paulus@accenture.com
 IntegrationSuiteFirstPoC;IntegrationFlow;Integration_Flow_PoC;Active;02.02.2024 16:14:35;frederic.agneray@accenture.com
