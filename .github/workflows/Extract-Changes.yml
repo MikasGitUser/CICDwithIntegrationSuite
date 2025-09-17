@@ -27,25 +27,24 @@ jobs:
           echo "✅ Added/Deleted/Changed lines extracted:"
           cat added_lines.txt
           {
-          echo 'fileoutput<<EOF'
-          cat added_lines.txt
-          echo EOF
+            echo 'fileoutput<<EOF'
+            cat added_lines.txt
+            echo EOF
           } >> "$GITHUB_OUTPUT"
 
       - name: Call BTP CI IFlow
         id: step2
         run: |
-          echo "${{steps.step1.outputs.fileoutput}}"
-          curl -v -i -X GET https://accenture-sbg-asg.it-cpi024-rt.cfapps.eu10-002.hana.ondemand.com/http/SyncArtifactsDispatcher/GITHUB \
+          echo "${{ steps.step1.outputs.fileoutput }}"
+          curl -v -i -X GET "https://accenture-sbg-asg.it-cpi024-rt.cfapps.eu10-002.hana.ondemand.com/http/SyncArtifactsDispatcher/GITHUB" \
                -H "Content-Type: application/text" \
                -H "Authorization: Bearer ${{ secrets.API_KEY }}" \
-               -d '${{steps.step1.outputs.fileoutput}}'
+               -d "${{ steps.step1.outputs.fileoutput }}"
 
-
-       - name: Call Naming Convention Check IFlow
-         id: step3
-         run: |
-          echo "${{steps.step1.outputs.fileoutput}}"
-          curl -v -i -X GET https://accenture-sbg-asg.it-cpi024-rt.cfapps.eu10-002.hana.ondemand.com/http/NamingConventionCheckwithPD \
+      - name: Call Naming Convention Check IFlow
+        id: step3
+        run: |
+          echo "${{ steps.step1.outputs.fileoutput }}"
+          curl -v -i -X GET "https://accenture-sbg-asg.it-cpi024-rt.cfapps.eu10-002.hana.ondemand.com/http/NamingConventionCheckwithPD" \
                -H "Content-Type: application/text" \
                -H "Authorization: Bearer ${{ secrets.API_KEY }}" \
