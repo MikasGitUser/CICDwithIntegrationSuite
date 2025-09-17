@@ -33,6 +33,7 @@ jobs:
           } >> "$GITHUB_OUTPUT"
 
       - name: Call BTP CI IFlow
+        id: step2
         run: |
           echo "${{steps.step1.outputs.fileoutput}}"
           curl -v -i -X GET https://accenture-sbg-asg.it-cpi024-rt.cfapps.eu10-002.hana.ondemand.com/http/SyncArtifactsDispatcher/GITHUB \
@@ -42,7 +43,8 @@ jobs:
 
 
        - name: Call Naming Convention Check IFlow
-        run: |
+         id: step3
+         run: |
           echo "${{steps.step1.outputs.fileoutput}}"
           curl -v -i -X GET https://accenture-sbg-asg.it-cpi024-rt.cfapps.eu10-002.hana.ondemand.com/http/NamingConventionCheckwithPD \
                -H "Content-Type: application/text" \
