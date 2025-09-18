@@ -16,8 +16,8 @@ ASGPlayground;IntegrationFlow;Naming_Convention_Check_for_Packages;1.0.2;28.08.2
 ASGPlayground;MessageMapping;MM_IDOC_to_IDOC;Draft;;
 ASGPlayground;MessageMapping;MM_IDOC_to_SOAP;Draft;;
 ASGPlayground;ValueMapping;Dummy_Value_Mapping;1.0.2;;
-ASGPlayground;ScriptCollection;Dummy_Script_Collection;1.0.2;;
 ASGPlayground;ScriptCollection;SC_Sample_ScriptCollection_1;1.0.0;;
+ASGPlayground;ScriptCollection;Dummy_Script_Collection;1.0.3;;
 CloudIntegrationTradingPartnerManagementV2;IntegrationFlow;Step_1_-_Sender_AS2_MDN_Flow_V2;2.3.4;15.08.2025 16:26:18;s.tenkasi.sundaram@accenture.com
 CloudIntegrationTradingPartnerManagementV2;IntegrationFlow;Step_1b_-_Write_message_to_message_queue;2.6.3;15.08.2025 16:26:18;s.tenkasi.sundaram@accenture.com
 CloudIntegrationTradingPartnerManagementV2;IntegrationFlow;Step_3_-_Receiver_Communication_Flow_V2;2.5.1;15.08.2025 16:26:18;s.tenkasi.sundaram@accenture.com
@@ -49,7 +49,7 @@ GermnayAssets;IntegrationFlow;UC6_Step_1_Inbound_Processing_to_JMS;Active;04.08.
 GermnayAssets;IntegrationFlow;UC6_Step_2_Generic_JMS_Sender_IFlow;Active;04.08.2025 11:12:42;jitendra.jeswani@accenture.com
 GermnayAssets;IntegrationFlow;UC1_Integration_Artifacts_Catalog;Active;08.08.2025 12:45:24;mika.paulus@accenture.com
 GermnayAssets;IntegrationFlow;UC7_Naming_Convention_Check_with_PD;1.0.4;18.09.2025 12:50:55;mika.paulus@accenture.com
-GermnayAssets;IntegrationFlow;UC7_Naming_Convention_Check_with_PD_for_GIT_Synchronization;Active;18.09.2025 13:18:05;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC7_Naming_Convention_Check_with_PD_for_GIT_Synchronization;Active;18.09.2025 15:01:35;mika.paulus@accenture.com
 GermnayAssets;IntegrationFlow;UC7_Naming_Convention_Check;1.0.3;11.09.2025 14:21:55;mika.paulus@accenture.com
 IntegrationSuiteFirstPoC;IntegrationFlow;Integration_Flow_PoC;Active;02.02.2024 16:14:35;frederic.agneray@accenture.com
 SAPEVENTMESH;IntegrationFlow;AMQP;Active;29.08.2025 16:12:16;maicon.soehn@accenture.com
