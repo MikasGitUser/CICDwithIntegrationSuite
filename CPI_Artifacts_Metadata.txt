@@ -50,8 +50,8 @@ GermnayAssets;IntegrationFlow;UC6_Step_1_Inbound_Processing_to_JMS;Active;04.08.
 GermnayAssets;IntegrationFlow;UC6_Step_2_Generic_JMS_Sender_IFlow;Active;04.08.2025 11:12:42;jitendra.jeswani@accenture.com
 GermnayAssets;IntegrationFlow;UC1_Integration_Artifacts_Catalog;Active;08.08.2025 12:45:24;mika.paulus@accenture.com
 GermnayAssets;IntegrationFlow;UC7_Naming_Convention_Check_with_PD;1.0.4;18.09.2025 12:50:55;mika.paulus@accenture.com
-GermnayAssets;IntegrationFlow;UC7_Naming_Convention_Check_with_PD_for_GIT_Synchronization;Active;19.09.2025 13:14:32;mika.paulus@accenture.com
 GermnayAssets;IntegrationFlow;UC7_Naming_Convention_Check;1.0.3;11.09.2025 14:21:55;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC7_Naming_Convention_Check_with_PD_for_GIT_Synchronization;Active;24.09.2025 14:06:34;mika.paulus@accenture.com
 IntegrationSuiteFirstPoC;IntegrationFlow;Integration_Flow_PoC;Active;02.02.2024 16:14:35;frederic.agneray@accenture.com
 SAPEVENTMESH;IntegrationFlow;AMQP;Active;29.08.2025 16:12:16;maicon.soehn@accenture.com
 SAPCloudPlatformIntegrationwithSAPCloudPlatformAlertNotification;IntegrationFlow;Send_notifications_for_failed_Message_Processing_Log;1.0.6;01.08.2025 15:05:54;jitendra.jeswani@accenture.com
