@@ -32,8 +32,8 @@ IntegrationFlow,Step 1 - Sender IDOC Communication Flow V2,INVALID
 IntegrationFlow,Step 1 - Sender AS2 Communication Flow V2,INVALID
 IntegrationFlow,Step 1 - Sender Communication Flow V2 - Internal,INVALID
 IntegrationFlow,Inbound Delivery_DESADV_DELVRY0781_SAPToWMS,INVALID
-IntegrationFlow,HTTPSEntryPoint,VALID
 IntegrationFlow,ShipconDelivry_RECADV098_WMStoSAP,VALID
+IntegrationFlow,HTTPSEntryPoint,VALID
 IntegrationFlow,UC2 Event Consumer 2 Queue,INVALID
 IntegrationFlow,UC2 Event Consumer 4 Topic,INVALID
 IntegrationFlow,UC2 EventPublisher,INVALID
@@ -53,8 +53,8 @@ IntegrationFlow,UC6 Step 1 Inbound Processing to JMS,INVALID
 IntegrationFlow,UC6 Step 2 Generic JMS Sender IFlow,INVALID
 IntegrationFlow,UC1 Integration Artifacts Catalog,INVALID
 IntegrationFlow,UC7 Naming Convention Check with PD,INVALID
-IntegrationFlow,UC7 Naming Convention Check with PD for GIT Synchronization,INVALID
 IntegrationFlow,UC7 Naming Convention Check,INVALID
+IntegrationFlow,UC7 Naming Convention Check with PD for GIT Synchronization,INVALID
 IntegrationFlow,Integration Flow PoC,INVALID
 IntegrationFlow,AMQP,VALID
 IntegrationFlow,Send notifications for failed Message Processing Logs,INVALID
