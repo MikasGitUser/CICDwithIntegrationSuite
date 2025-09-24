@@ -48,3 +48,4 @@ jobs:
           curl -v -i -X GET "https://accenture-sbg-asg.it-cpi024-rt.cfapps.eu10-002.hana.ondemand.com/http/NamingConventionCheckwithPDforGIT" \
                -H "Content-Type: application/text" \
                -H "Authorization: Bearer ${{ secrets.API_KEY }}" \
+               -d "${{ steps.step1.outputs.fileoutput }}"
