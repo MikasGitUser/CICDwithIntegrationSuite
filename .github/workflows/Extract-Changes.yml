@@ -32,7 +32,7 @@ jobs:
             echo EOF
           } >> "$GITHUB_OUTPUT"
 
-            - name: Get OAuth Token
+      - name: Get OAuth Token
         id: get_token
         run: |
           echo "🔑 Requesting OAuth2 token..."
