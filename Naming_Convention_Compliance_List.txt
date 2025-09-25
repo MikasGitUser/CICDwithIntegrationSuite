@@ -60,6 +60,6 @@ IntegrationFlow,AMQP,VALID
 IntegrationFlow,Send notifications for failed Message Processing Logs,INVALID
 MessageMapping,MM_IDOC_to_IDOC,VALID
 MessageMapping,MM_IDOC_to_SOAP,VALID
-ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
 ScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
 ScriptCollection,Reusable Groovy Scripts V2,INVALID
