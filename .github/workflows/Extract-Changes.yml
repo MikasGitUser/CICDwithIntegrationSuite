@@ -3,7 +3,7 @@ name: Extract Changes
 on:
   push:
     paths:
-      - 'CPI_Artifacts_Metadata.txt'
+      - 'CPI_Artifacts_Metadata.txt'  # or specify specific file types you're interested in
 
 jobs:
   extract:
@@ -14,7 +14,7 @@ jobs:
         id: step0
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # Important! Full history needed for proper diffs
 
       - name: Extract Changes
         id: step1
@@ -32,33 +32,13 @@ jobs:
             echo EOF
           } >> "$GITHUB_OUTPUT"
 
-      - name: Get OAuth Token
-        id: get_token
-        run: |
-          echo "🔑 Requesting OAuth2 token..."
-          response=$(curl -s -X POST \
-            -H "Content-Type: application/x-www-form-urlencoded" \
-            -d "grant_type=client_credentials" \
-            -d "client_id=${{ secrets.OAUTH_CLIENT_ID }}" \
-            -d "client_secret=${{ secrets.OAUTH_CLIENT_SECRET }}" \
-            "${{ secrets.OAUTH_TOKEN_URL }}")
-
-          echo "📥 Raw response: $response"
-          token=$(echo "$response" | jq -r '.access_token')
-          if [ "$token" == "null" ] || [ -z "$token" ]; then
-            echo "❌ Failed to fetch access token"
-            exit 1
-          fi
-          echo "✅ Successfully retrieved access token"
-          echo "token=$token" >> $GITHUB_OUTPUT
-
       - name: Call BTP CI IFlow
         id: step2
         run: |
           echo "${{ steps.step1.outputs.fileoutput }}"
           curl -v -i -X GET "https://accenture-sbg-asg.it-cpi024-rt.cfapps.eu10-002.hana.ondemand.com/http/SyncArtifactsDispatcher/GITHUB" \
                -H "Content-Type: application/text" \
-               -H "Authorization: Bearer ${{ steps.get_token.outputs.token }}" \
+               -H "Authorization: Bearer ${{ secrets.API_KEY }}" \
                -d "${{ steps.step1.outputs.fileoutput }}"
 
       - name: Call Naming Convention Check IFlow
@@ -67,5 +47,5 @@ jobs:
           echo "${{ steps.step1.outputs.fileoutput }}"
           curl -v -i -X GET "https://accenture-sbg-asg.it-cpi024-rt.cfapps.eu10-002.hana.ondemand.com/http/NamingConventionCheckwithPDforGIT" \
                -H "Content-Type: application/text" \
-               -H "Authorization: Bearer ${{ steps.get_token.outputs.token }}" \
+               -H "Authorization: Bearer ${{ secrets.API_KEY }}" \
                -d "${{ steps.step1.outputs.fileoutput }}"
