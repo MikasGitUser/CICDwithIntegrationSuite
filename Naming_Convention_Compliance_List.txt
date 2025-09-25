@@ -5,6 +5,7 @@ Package,ASG Playground,INVALID
 Package,Cloud Integration - Trading Partner Management V2,INVALID
 Package,Custom IFlows for B2B Integration,INVALID
 Package,Docusign Adapter for SAP Integration Suite,INVALID
+Package,Dummy Package,INVALID
 Package,Germnay_Assets,VALID
 Package,Integration Suite First PoC,INVALID
 Package,SAP AMQP Event Mesh,INVALID
