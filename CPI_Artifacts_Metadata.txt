@@ -16,8 +16,8 @@ ASGPlayground;IntegrationFlow;Naming_Convention_Check_for_Packages;1.0.2;28.08.2
 ASGPlayground;MessageMapping;MM_IDOC_to_IDOC;Draft;;
 ASGPlayground;MessageMapping;MM_IDOC_to_SOAP;Draft;;
 ASGPlayground;ValueMapping;Dummy_Value_Mapping;1.0.6;;
-ASGPlayground;ScriptCollection;Dummy_Script_Collection;1.0.4;;
 ASGPlayground;ScriptCollection;SC_Sample_ScriptCollection_1;1.0.0;;
+ASGPlayground;ScriptCollection;Dummy_Script_Collection;1.0.5;;
 CloudIntegrationTradingPartnerManagementV2;IntegrationFlow;Step_1_-_Sender_AS2_MDN_Flow_V2;2.3.4;23.09.2025 15:31:03;s.tenkasi.sundaram@accenture.com
 CloudIntegrationTradingPartnerManagementV2;IntegrationFlow;Step_1b_-_Write_message_to_message_queue;2.6.3;23.09.2025 15:31:03;s.tenkasi.sundaram@accenture.com
 CloudIntegrationTradingPartnerManagementV2;IntegrationFlow;Step_3_-_Receiver_Communication_Flow_V2;2.7.0;23.09.2025 15:31:03;s.tenkasi.sundaram@accenture.com
