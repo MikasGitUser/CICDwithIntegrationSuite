@@ -1,3 +1,4 @@
 ArtifactType,Name,Validity
-Package,Germnay_Assets,VALID
-IntegrationFlow,UC7 Naming Convention Check with PD for GIT Synchronization,INVALID
+Package,ASG Playground,INVALID
+IntegrationFlow,Dummy_iFlow,VALID
+ScriptCollection,Dummy Script Collection,INVALID
