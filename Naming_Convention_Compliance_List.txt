@@ -1,9 +1,47 @@
 ArtifactType,Name,Validity
 Package,Germnay_Assets,VALID
+Package,ASG Playground,INVALID
 
-IntegrationFlow,UC3 ScriptCollectionsSyncwithGIT,INVALID
-MessageMapping,MM_IDOC_to_IDOC,VALID
-MessageMapping,MM_IDOC_to_SOAP,VALID
 ScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
+ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
+ScriptCollection,Reusable Groovy Scripts V2,INVALIDScriptCollection,Dummy Script Collection,INVALID
 ScriptCollection,SC_Sample_ScriptCollection 1,INVALID
 ScriptCollection,Reusable Groovy Scripts V2,INVALID
