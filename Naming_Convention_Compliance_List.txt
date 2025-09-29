@@ -1,7 +1,7 @@
 ArtifactType,Name,Validity
 Package,Germnay_Assets,VALID
 
-
+UC7 Naming Convention Check with PD for GIT Synchronization
 MessageMapping,MM_IDOC_to_IDOC,VALID
 MessageMapping,MM_IDOC_to_SOAP,VALID
 ScriptCollection,Dummy Script Collection,INVALID
