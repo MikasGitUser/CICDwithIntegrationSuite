@@ -1,13 +1,29 @@
 ArtifactType,Name,Validity
-Package,ASG Playground,INVALID
+Package,Cloud Integration - Trading Partner Management V2,INVALID
 Package,Germnay_Assets,VALID
-
-IntegrationFlow,UC7 Naming Convention Check with PD for GIT Synchronization,INVALID
-IntegrationFlow,Naming Convention Check for Packages,INVALID
-IntegrationFlow,Step 2 Call Final IFlow,INVALID
+Package,ASG Playground,INVALID
 IntegrationFlow,Generic Outbound IFlow for CPEX Flows,INVALID
-IntegrationFlow,Step 1 Source Inbound to Inbound JMS,INVALID
 IntegrationFlow,Check iflow implementation Maria,INVALID
-IntegrationFlow,SplitandAggregateScenario,VALID
-IntegrationFlow,Receiver Iflow 1,INVALID
 IntegrationFlow,DatastoreUseCase,VALID
+IntegrationFlow,Step 1 - Sender SOAP Communication Flow V2,INVALID
+IntegrationFlow,Step 1 - Sender AS2 Communication Flow V2,INVALID
+IntegrationFlow,Step 3 - Receiver Communication Flow V2,INVALID
+IntegrationFlow,SampleIFlowtoReadKeyStore,VALID
+IntegrationFlow,SplitandAggregateScenario,VALID
+IntegrationFlow,Receiver Iflow 2,INVALID
+IntegrationFlow,Receiver Iflow 3,INVALID
+IntegrationFlow,Naming Convention Check for Packages,INVALID
+IntegrationFlow,Step 2 - Interchange Processing Flow V2,INVALID
+IntegrationFlow,UC3 ArtifactsSyncwithGIT,INVALID
+IntegrationFlow,UC2 Event Consumer 1 Queue,INVALID
+IntegrationFlow,UC2 Event Consumer 4 Topic,INVALID
+IntegrationFlow,UC7 Naming Convention Check with PD,INVALID
+IntegrationFlow,UC5 Generic Outbound Iflow for all Receivers using PD,INVALID
+IntegrationFlow,UC7 Naming Convention Check,INVALID
+IntegrationFlow,UC2 Event Consumer 3 Queue,INVALID
+IntegrationFlow,UC2 Event Consumer 2 Queue,INVALID
+IntegrationFlow,UC6 Step 3 Call Final IFlow,INVALID
+IntegrationFlow,UC2 EventPublisher,INVALID
+IntegrationFlow,UC7 Naming Convention Check with PD for GIT Synchronization,INVALID
+IntegrationFlow,UC3 ScriptCollectionsSyncwithGIT,INVALID
+IntegrationFlow,UC1 Integration Artifacts Catalog,INVALID
