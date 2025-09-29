@@ -2,3 +2,12 @@ ArtifactType,Name,Validity
 Package,ASG Playground,INVALID
 Package,Germnay_Assets,VALID
 
+IntegrationFlow,UC7 Naming Convention Check with PD for GIT Synchronization,INVALID
+IntegrationFlow,Naming Convention Check for Packages,INVALID
+IntegrationFlow,Step 2 Call Final IFlow,INVALID
+IntegrationFlow,Generic Outbound IFlow for CPEX Flows,INVALID
+IntegrationFlow,Step 1 Source Inbound to Inbound JMS,INVALID
+IntegrationFlow,Check iflow implementation Maria,INVALID
+IntegrationFlow,SplitandAggregateScenario,VALID
+IntegrationFlow,Receiver Iflow 1,INVALID
+IntegrationFlow,DatastoreUseCase,VALID
