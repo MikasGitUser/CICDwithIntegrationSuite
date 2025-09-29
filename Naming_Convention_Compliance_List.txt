@@ -1,7 +1,7 @@
 ArtifactType,Name,Validity
 Package,Germnay_Assets,VALID
 
-<d:Name xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">UC7 Naming Convention Check with PD for GIT Synchronization</d:Name>
+
 MessageMapping,MM_IDOC_to_IDOC,VALID
 MessageMapping,MM_IDOC_to_SOAP,VALID
 ScriptCollection,Dummy Script Collection,INVALID
