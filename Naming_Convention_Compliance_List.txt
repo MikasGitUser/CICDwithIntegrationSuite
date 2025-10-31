@@ -1,6 +1,2 @@
 ArtifactType,Name,Validity
-Package,Germnay_Assets,VALID
-Package,ASG Playground,INVALID
-ValueMapping,Dummy Value Mapping,INVALID
-IntegrationFlow,UC3 Integration Content Catalog Creation IS to GIT adjusted,INVALID
-IntegrationFlow,dddd,VALID
+<Packages /><?xml version='1.0' encoding='UTF-8'?><Artifacts></Artifacts>
