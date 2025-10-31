@@ -1,3 +1,0 @@
-ArtifactType,Name,Validity
-Package,ASG Playground,INVALID
-ValueMapping,Dummy Value Mapping,INVALID
