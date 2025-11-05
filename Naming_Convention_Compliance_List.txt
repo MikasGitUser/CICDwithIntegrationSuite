@@ -1,3 +1,6 @@
 ArtifactType,Name,Validity
 Package,ASG Playground,INVALID
-IntegrationFlow,Dummy_iFlow,VALID
+Package,Germnay_Assets,VALID
+IntegrationFlow,Mikas Test,INVALID
+IntegrationFlow,UC3 IntegrationFlowsSyncwithGIT,INVALID
+IntegrationFlow,ExtractIFlowYML,VALID
