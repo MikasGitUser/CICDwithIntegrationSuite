@@ -1,0 +1,36 @@
+name: OAuth Token Test
+
+on:
+  push:
+    paths:
+      - main
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        id: step0
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get OAuth Token
+        id: get_token
+        run: |
+          echo "🔑 Requesting OAuth2 token..."
+          response=$(curl -s -X POST https://accenture-sbg-asg.authentication.eu10.hana.ondemand.com/oauth/token \
+            -H "Content-Type: application/x-www-form-urlencoded" \
+            -d "grant_type=client_credentials" \
+            -d "client_id=sb-7a5ea361-42a3-4605-8c59-e5aa24495617!b364412|it-rt-accenture-sbg-asg!b182722" \
+            -d "client_secret=193d88d7-7728-41fd-a0df-231b63756eb4$3tKWS2V70-rCYrub7EYUPuhWTWpdjLGoHgNmEQtGkvk=")
+
+          echo "📥 Raw response: $response"
+          token=$(echo "$response" | jq -r '.access_token')
+          if [ "$token" == "null" ] || [ -z "$token" ]; then
+            echo "❌ Failed to fetch access token"
+            exit 1
+          fi
+          echo "✅ Successfully retrieved access token"
+          echo "token=$token" >> $GITHUB_OUTPUT
