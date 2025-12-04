@@ -1,17 +1,3 @@
 ArtifactType,Name,Validity
-Package,Germnay_Assets,VALID
 Package,ASG Playground,INVALID
 ValueMapping,Dummy Value Mapping,INVALID
-IntegrationFlow,UC7 Naming Convention Check with PD for GIT Synchronization,INVALID
-IntegrationFlow,UC4 HowToUsePartnerDirectory,INVALID
-IntegrationFlow,UC6 Step 3 Call Final IFlow,INVALID
-IntegrationFlow,UC1 Integration Artifacts Catalog,INVALID
-IntegrationFlow,UC2 Event Consumer 3 Queue,INVALID
-IntegrationFlow,UC5 Generic Outbound Iflow for all Receivers using PD,INVALID
-IntegrationFlow,UC2 Event Consumer 1 Queue,INVALID
-IntegrationFlow,UC3 IntegrationFlowsSyncwithGIT,INVALID
-IntegrationFlow,UC6 Step 1 Inbound Processing to JMS,INVALID
-IntegrationFlow,UC3 ScriptCollectionsSyncwithGIT,INVALID
-IntegrationFlow,UC3 ArtifactsSyncwithGIT_Dispatcher,INVALID
-IntegrationFlow,UC3 MessageMappingsSyncwithGIT,INVALID
-IntegrationFlow,UC7 Naming Convention Check with PD,INVALID
