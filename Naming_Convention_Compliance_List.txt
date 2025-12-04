@@ -1,27 +1,35 @@
 ArtifactType,Name,Validity
-Package,ASG Playground,INVALID
 Package,Cloud Integration - Trading Partner Management V2,INVALID
-Package,Custom IFlows for B2B Integration,INVALID
 Package,Germnay_Assets,VALID
-IntegrationFlow,ExtractIFlowYML,VALID
-IntegrationFlow,Receiver Iflow 3,INVALID
+Package,ASG Playground,INVALID
 IntegrationFlow,SampleIFlowtoReadKeyStore,VALID
-IntegrationFlow,Dummy_iFlow,VALID
+IntegrationFlow,Mikas Test,INVALID
+IntegrationFlow,Receiver Iflow 2,INVALID
+IntegrationFlow,ExtractIFlowYML,VALID
+IntegrationFlow,SplitandAggregateScenario,VALID
+IntegrationFlow,Check iflow implementation Maria,INVALID
+IntegrationFlow,dddd,VALID
 IntegrationFlow,Naming Convention Check for Packages,INVALID
 IntegrationFlow,Generic Outbound IFlow for CPEX Flows,INVALID
-IntegrationFlow,Check iflow implementation Maria,INVALID
-IntegrationFlow,CustomStatus_IFLOW,VALID
-IntegrationFlow,Step 1 Source Inbound to Inbound JMS,INVALID
-IntegrationFlow,SplitandAggregateScenario,VALID
-IntegrationFlow,Step 2 - Interchange Processing Flow V2,INVALID
-IntegrationFlow,Step 1 - Sender AS2 Communication Flow V2,INVALID
-IntegrationFlow,Generic DataStore DLQ Processing,INVALID
+IntegrationFlow,DatastoreUseCase,VALID
+IntegrationFlow,UC7 Naming Convention Check_copy,INVALID
+IntegrationFlow,Dummy_iFlow,VALID
 IntegrationFlow,Step 1 - Sender AS2 MDN Flow V2,INVALID
-IntegrationFlow,Receiver Iflow 2,INVALID
+IntegrationFlow,Step 1 - Sender Communication Flow V2 - Internal,INVALID
 IntegrationFlow,Step 1 - Sender Process Direct Communication Flow V2,INVALID
+IntegrationFlow,Step 1b - Write Message to Message queue,INVALID
 IntegrationFlow,Step 1 - Sender SOAP Communication Flow V2,INVALID
-IntegrationFlow,HTTPSEntryPoint,VALID
-IntegrationFlow,Step 1 - Sender IDOC Communication Flow V2,INVALID
-IntegrationFlow,ShipconDelivry_RECADV098_WMStoSAP,VALID
+IntegrationFlow,UC2 Event Consumer 1 Queue,INVALID
+IntegrationFlow,Step 2 - Interchange Processing Flow V2,INVALID
+IntegrationFlow,UC3 ScriptCollectionsSyncwithGIT,INVALID
+IntegrationFlow,UC3 IntegrationFlowsSyncwithGIT,INVALID
+IntegrationFlow,UC6 Step 3 Call Final IFlow,INVALID
+IntegrationFlow,UC3 MessageMappingsSyncwithGIT,INVALID
+IntegrationFlow,UC4 HowToUsePartnerDirectory,INVALID
+IntegrationFlow,UC7 Naming Convention Check with PD,INVALID
+IntegrationFlow,UC7 Naming Convention Check with PD for GIT Synchronization,INVALID
+IntegrationFlow,UC3 ArtifactsSyncwithGIT_Dispatcher,INVALID
+IntegrationFlow,UC5 Generic Outbound Iflow for all Receivers using PD,INVALID
+IntegrationFlow,UC1 Integration Artifacts Catalog,INVALID
+IntegrationFlow,UC6 Step 1 Inbound Processing to JMS,INVALID
 IntegrationFlow,UC3 Integration Content Catalog Creation IS to GIT adjusted,INVALID
-IntegrationFlow,DESADV_DELVRY07_SAP_To_EDI,VALID
