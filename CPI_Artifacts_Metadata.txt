@@ -20,7 +20,7 @@ ASGPlayground;IntegrationFlow;Dummy_iFlow;1.0.1;03.11.2025 15:37:45;mika.paulus@
 ASGPlayground;IntegrationFlow;UC7_Naming_Convention_Check_copy;1.0.3;12.11.2025 14:38:57;mika.paulus@accenture.com
 ASGPlayground;MessageMapping;MM_IDOC_to_IDOC;Draft;;
 ASGPlayground;MessageMapping;MM_IDOC_to_SOAP;Draft;;
-ASGPlayground;ValueMapping;Dummy_Value_Mapping;1.0.11;;
+ASGPlayground;ValueMapping;Dummy_Value_Mapping;1.0.12;;
 ASGPlayground;ScriptCollection;SC_Sample_ScriptCollection_1;1.0.0;;
 ASGPlayground;ScriptCollection;Dummy_Script_Collection;1.0.6;;
 CloudIntegrationTradingPartnerManagementV2;IntegrationFlow;Step_3_-_Receiver_Communication_Flow_V2;2.7.3;05.11.2025 15:27:56;s.tenkasi.sundaram@accenture.com
