@@ -1,15 +1,2 @@
 ArtifactType,Name,Validity
-Package,ASG Playground,INVALID
-IntegrationFlow,DatastoreUseCase,VALID
-IntegrationFlow,Generic Outbound IFlow for CPEX Flows,INVALID
-IntegrationFlow,SampleIFlowtoReadKeyStore,VALID
-IntegrationFlow,Download iFlows Test,INVALID
-IntegrationFlow,SplitandAggregateScenario,VALID
-IntegrationFlow,Mikas Test,INVALID
-IntegrationFlow,Check iflow implementation Maria,INVALID
-IntegrationFlow,Receiver Iflow 2,INVALID
-IntegrationFlow,dddd,VALID
-IntegrationFlow,Naming Convention Check for Packages,INVALID
-IntegrationFlow,ExtractIFlowYML,VALID
-IntegrationFlow,Dummy_iFlow,VALID
-IntegrationFlow,UC7 Naming Convention Check_copy,INVALID
+<Packages /><?xml version='1.0' encoding='UTF-8'?><Artifacts></Artifacts>
