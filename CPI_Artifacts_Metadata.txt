@@ -1,0 +1,65 @@
+
+
+ASGPlayground;IntegrationFlow;SplitandAggregateScenario;Active;05.08.2025 21:40:09;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;Step_2_Split_and_Multicast;Active;21.07.2025 22:12:35;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;Receiver_Iflow_2;Active;22.07.2025 08:01:17;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;Receiver_Iflow_1;Active;21.07.2025 21:56:27;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;Generic_Outbound_IFlow_for_CPEX_Flows;1.0.1;21.07.2025 15:46:00;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;Source_Inbound_to_JMS;Active;22.07.2025 12:36:56;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;Mikas_Test;Active;04.11.2025 16:08:07;mika.paulus@accenture.com
+ASGPlayground;IntegrationFlow;Receiver_Iflow_3;Active;21.07.2025 21:57:26;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;SampleIFlowtoReadKeyStore;Active;04.08.2025 16:34:02;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;CustomStatus_IFLOW;Active;01.08.2025 06:09:45;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;DatastoreUseCase;Active;06.08.2025 10:08:38;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;Generic_DataStore_DLQ_Processing;Active;06.08.2025 10:18:51;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;Check_iflow_implementation_Maria;Active;15.09.2025 15:02:20;maria.ocon.palma@accenture.com
+ASGPlayground;IntegrationFlow;Download_iFlows_Test;Active;04.12.2025 15:25:38;mika.paulus@accenture.com
+ASGPlayground;IntegrationFlow;dddd;1.0.0;28.10.2025 13:52:30;jitendra.jeswani@accenture.com
+ASGPlayground;IntegrationFlow;Naming_Convention_Check_for_Packages;1.0.2;28.08.2025 16:26:50;mika.paulus@accenture.com
+ASGPlayground;IntegrationFlow;ExtractIFlowYML;Active;28.11.2025 14:32:28;s.tenkasi.sundaram@accenture.com
+ASGPlayground;IntegrationFlow;Dummy_iFlow;1.0.1;03.11.2025 15:37:45;mika.paulus@accenture.com
+ASGPlayground;IntegrationFlow;UC7_Naming_Convention_Check_copy;1.0.3;12.11.2025 14:38:57;mika.paulus@accenture.com
+ASGPlayground;MessageMapping;MM_IDOC_to_IDOC;Draft;;
+ASGPlayground;MessageMapping;MM_IDOC_to_SOAP;Draft;;
+ASGPlayground;ValueMapping;Dummy_Value_Mapping;1.0.12;;
+ASGPlayground;ScriptCollection;SC_Sample_ScriptCollection_1;1.0.0;;
+ASGPlayground;ScriptCollection;Dummy_Script_Collection;1.0.6;;
+CloudIntegrationTradingPartnerManagementV2;IntegrationFlow;Step_3_-_Receiver_Communication_Flow_V2;2.7.3;05.11.2025 15:27:56;s.tenkasi.sundaram@accenture.com
+CloudIntegrationTradingPartnerManagementV2;IntegrationFlow;Step_1_-_Sender_AS2_Communication_Flow_V2;2.3.7;05.11.2025 15:27:56;s.tenkasi.sundaram@accenture.com
+CloudIntegrationTradingPartnerManagementV2;IntegrationFlow;Step_1_-_Sender_IDOC_Communication_Flow_V2;2.3.0;05.11.2025 15:27:56;s.tenkasi.sundaram@accenture.com
+CloudIntegrationTradingPartnerManagementV2;IntegrationFlow;Step_1_-_Sender_SOAP_Communication_Flow_V2;2.3.0;05.11.2025 15:27:56;s.tenkasi.sundaram@accenture.com
+CloudIntegrationTradingPartnerManagementV2;IntegrationFlow;Step_1_-_Sender_HTTP_Communication_Flow_V2;2.3.7;05.11.2025 15:27:56;s.tenkasi.sundaram@accenture.com
+CloudIntegrationTradingPartnerManagementV2;IntegrationFlow;Step_1b_-_Write_message_to_message_queue;2.7.2;05.11.2025 15:27:56;s.tenkasi.sundaram@accenture.com
+CloudIntegrationTradingPartnerManagementV2;IntegrationFlow;Step_1_-_Sender_AS2_MDN_Flow_V2;2.3.4;05.11.2025 15:27:57;s.tenkasi.sundaram@accenture.com
+CloudIntegrationTradingPartnerManagementV2;IntegrationFlow;Step_2_-_Interchange_Processing_Flow_V2;2.7.3;05.11.2025 15:27:57;s.tenkasi.sundaram@accenture.com
+CloudIntegrationTradingPartnerManagementV2;IntegrationFlow;Step_1_-_Sender_Process_Direct_Communication_Flow_V2;2.3.0;05.11.2025 15:27:57;s.tenkasi.sundaram@accenture.com
+CloudIntegrationTradingPartnerManagementV2;ScriptCollection;Reusable_Groovy_Scripts_V2;2.7.3;;
+CustomIFlowsforB2BIntegration;IntegrationFlow;Inbound_Delivery_DESADV_DELVRY0781_SAPToWMS;Active;16.09.2025 08:56:39;s.tenkasi.sundaram@accenture.com
+CustomIFlowsforB2BIntegration;IntegrationFlow;IDOC_Despatcher;Active;09.10.2025 17:08:39;s.tenkasi.sundaram@accenture.com
+CustomIFlowsforB2BIntegration;IntegrationFlow;HTTPSEntryPoint;Active;17.08.2025 21:28:25;s.tenkasi.sundaram@accenture.com
+CustomIFlowsforB2BIntegration;IntegrationFlow;ShipconDelivry_RECADV098_WMStoSAP;Active;25.11.2025 10:52:43;s.tenkasi.sundaram@accenture.com
+CustomIFlowsforB2BIntegration;IntegrationFlow;DESADV_DELVRY07_SAP_To_EDI;Active;09.10.2025 17:16:14;s.tenkasi.sundaram@accenture.com
+DummyPackage;IntegrationFlow;Replicate_invoice_from_S4HANA_v2;1.0.2;06.11.2025 10:36:12;irfan.sari@accenture.com
+GermnayAssets;IntegrationFlow;Event_Consumer_2;1.0.3;21.07.2025 16:37:28;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;Event_Consumer_4_Topic;Active;27.06.2025 07:44:40;jitendra.jeswani@accenture.com
+GermnayAssets;IntegrationFlow;EventPublisher;Active;27.06.2025 12:53:31;jitendra.jeswani@accenture.com
+GermnayAssets;IntegrationFlow;UC3_Integration_Content_Catalog_Creation_IS_to_GIT_adjusted;1.0.4;04.12.2025 14:02:01;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;Event_Consumer_3_Queue;Active;27.06.2025 15:46:39;jitendra.jeswani@accenture.com
+GermnayAssets;IntegrationFlow;UC7_Naming_Convention_Check_with_PD_for_GIT_Synchronization;1.0.7;04.12.2025 14:05:49;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC5_Generic_Outbound_Iflow_for_all_Receivers_using_PD;1.0.0;16.07.2025 23:05:36;jitendra.jeswani@accenture.com
+GermnayAssets;IntegrationFlow;Event_Consumer_1;1.0.2;21.07.2025 16:16:18;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC3_ArtifactsSyncwithGIT;Active;23.07.2025 11:23:51;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC4_HowToUsePartnerDirectory;Active;16.07.2025 22:17:30;jitendra.jeswani@accenture.com
+GermnayAssets;IntegrationFlow;UC3_IntegrationFlowsSyncwithGIT;Active;10.12.2025 12:32:03;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC6_Step_3_Call_Final_IFlow;Active;04.08.2025 21:04:39;jitendra.jeswani@accenture.com
+GermnayAssets;IntegrationFlow;UC6_Step_1_Inbound_Processing_to_JMS;Active;04.08.2025 11:08:29;jitendra.jeswani@accenture.com
+GermnayAssets;IntegrationFlow;UC6_Step_2_Generic_JMS_Sender_IFlow;Active;04.08.2025 11:12:42;jitendra.jeswani@accenture.com
+GermnayAssets;IntegrationFlow;UC1_Integration_Artifacts_Catalog;Active;08.08.2025 12:45:24;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC3_ValueMappingsSyncwithGIT;1.0.4;05.11.2025 12:25:57;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC3_ScriptCollectionsSyncwithGIT;1.0.4;05.11.2025 12:26:21;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC3_MessageMappingsSyncwithGIT;1.0.4;05.11.2025 12:26:58;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC3_ArtifactsSyncwithGIT_Dispatcher;Active;10.12.2025 10:51:56;mika.paulus@accenture.com
+GermnayAssets;IntegrationFlow;UC7_Naming_Convention_Check_with_PD;1.0.5;09.10.2025 07:14:12;mika.paulus@accenture.com
+IntegrationSuiteFirstPoC;IntegrationFlow;Integration_Flow_PoC;Active;02.02.2024 16:14:35;frederic.agneray@accenture.com
+SAPEVENTMESH;IntegrationFlow;AMQP;Active;29.08.2025 16:12:16;maicon.soehn@accenture.com
+SAPCloudPlatformIntegrationwithSAPCloudPlatformAlertNotification;IntegrationFlow;Send_notifications_for_failed_Message_Processing_Log;1.0.6;01.08.2025 15:05:54;jitendra.jeswani@accenture.com
